@@ -1,0 +1,81 @@
+{
+    "name": "OneTap - A button for your brain",
+    "short_name": "OneTap",
+    "description": "Tap. Speak. It remembers everything, surfacing what matters when it matters.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4A90E2",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "en-US",
+    "categories": ["productivity", "utilities", "lifestyle"],
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable any"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable any"
+      },
+      {
+        "src": "/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      }
+    ],
+    "shortcuts": [
+      {
+        "name": "Privacy Policy",
+        "short_name": "Privacy",
+        "description": "View OneTap's privacy policy",
+        "url": "/privacy",
+        "icons": [
+          {
+            "src": "/favicon-32x32.png",
+            "sizes": "32x32"
+          }
+        ]
+      },
+      {
+        "name": "Data Deletion",
+        "short_name": "Delete Data",
+        "description": "Request data deletion",
+        "url": "/delete",
+        "icons": [
+          {
+            "src": "/favicon-32x32.png",
+            "sizes": "32x32"
+          }
+        ]
+      }
+    ],
+    "related_applications": [
+      {
+        "platform": "play",
+        "url": "https://play.google.com/store/apps/details?id=com.tryonetap.app",
+        "id": "com.tryonetap.app"
+      },
+      {
+        "platform": "itunes",
+        "url": "https://apps.apple.com/app/onetap/id123456789"
+      }
+    ],
+    "prefer_related_applications": true
+  }
+  
