@@ -1,8 +1,8 @@
-import type { Metadata } from 'next'
-import './globals.css'
+import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tryonetap.com"),
+  metadataBase: new URL("https://onetap.jonathanb.dk"),
   title: {
     default: "OneTap - A button for your brain",
     template: "%s | OneTap",
@@ -47,7 +47,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "OneTap - A button for your brain",
-    description: "Tap. Speak. It remembers everything, surfacing what matters when it matters.",
+    description:
+      "Tap. Speak. It remembers everything, surfacing what matters when it matters.",
     images: ["/og-image.png"],
     creator: "@tryonetap",
   },
@@ -68,16 +69,16 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",
-}
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
       <body>{children}</body>
     </html>
-  )
+  );
 }
