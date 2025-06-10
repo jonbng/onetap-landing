@@ -158,7 +158,12 @@ export default function OneTapLanding() {
               </div>
             </div>
 
-            <div className="bg-gray-100 rounded-xl px-5 py-4 hover:bg-gray-50 transition-colors duration-300 cursor-pointer">
+            <div
+              className="bg-gray-100 rounded-xl px-5 py-4 hover:bg-gray-50 transition-colors duration-300 cursor-pointer"
+              onClick={() => {
+                window.open("https://onetap.elliottf.dk/", "_blank");
+              }}
+            >
               <div className="flex items-center space-x-3">
                 <div className="w-8 h-8 bg-white rounded flex items-center justify-center">
                   <svg
